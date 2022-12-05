@@ -19,7 +19,7 @@ namespace DemoProject.Tests
         public void CollectionAddTests()
         {
             ITestRepository testRepository = new TestRepository();
-            testRepository.InsertItem(new Test { Text = "deneme 4" });
+            testRepository.InsertItem(new Test { Text = "deneme 5" });
             var result = testRepository.GetList();
         }
     }
