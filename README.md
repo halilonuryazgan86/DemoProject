@@ -6,13 +6,13 @@ Demo project for Rise Technology's Assesment
 - Mongo DB
 
 # Project Modules
--DemoProject.Core
--DemoProject.Customer
--DemoProject.CustomerService.Web
--DemoProject.Report.Core
--DemoProject.ReportService.Web
--DemoProject.ReportWorker
--DemoProject.Tests
+- DemoProject.Core
+- DemoProject.Customer
+- DemoProject.CustomerService.Web
+- DemoProject.Report.Core
+- DemoProject.ReportService.Web
+- DemoProject.ReportWorker
+- DemoProject.Tests
 
 # Usage
 
