@@ -6,4 +6,12 @@
     <RootNamespace>DemoProject.Customer</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.17.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoProject.Core\DemoProject.Core.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProject.Core", "DemoProject.Core\DemoProject.Core.csproj", "{AD8F0F36-4EA3-446B-AEFB-01193023FED5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoProject.Core", "DemoProject.Core\DemoProject.Core.csproj", "{AD8F0F36-4EA3-446B-AEFB-01193023FED5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProject.Customer", "DemoProject.CustomerService\DemoProject.Customer.csproj", "{FDA4A87C-323A-42EE-BB80-45ED493372A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoProject.Customer", "DemoProject.CustomerService\DemoProject.Customer.csproj", "{FDA4A87C-323A-42EE-BB80-45ED493372A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoProject.CustomerService.Web", "DemoProject.CustomerService.Web\DemoProject.CustomerService.Web.csproj", "{D8D73731-5B4B-4A2B-B9C1-2E4EF542B683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProject.Report.Core", "DemoProject.Report.Core\DemoProject.Report.Core.csproj", "{3E068F8D-E256-4F6E-B376-374A8DF1515E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProject.ReportService.Web", "DemoProject.ReportService.Web\DemoProject.ReportService.Web.csproj", "{11EC1755-AE8D-43DC-8564-699BE1518860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProject.ReportWorker", "DemoProject.ReportWorker\DemoProject.ReportWorker.csproj", "{70148F2A-B35F-4E74-9827-7176D385FFF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProject.Tests", "DemoProject.Tests\DemoProject.Tests.csproj", "{E5EB6457-43A7-416B-8CC6-B99DC314C7EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,26 @@ Global
 		{FDA4A87C-323A-42EE-BB80-45ED493372A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDA4A87C-323A-42EE-BB80-45ED493372A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDA4A87C-323A-42EE-BB80-45ED493372A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D73731-5B4B-4A2B-B9C1-2E4EF542B683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D73731-5B4B-4A2B-B9C1-2E4EF542B683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D73731-5B4B-4A2B-B9C1-2E4EF542B683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D73731-5B4B-4A2B-B9C1-2E4EF542B683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E068F8D-E256-4F6E-B376-374A8DF1515E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E068F8D-E256-4F6E-B376-374A8DF1515E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E068F8D-E256-4F6E-B376-374A8DF1515E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E068F8D-E256-4F6E-B376-374A8DF1515E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11EC1755-AE8D-43DC-8564-699BE1518860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11EC1755-AE8D-43DC-8564-699BE1518860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11EC1755-AE8D-43DC-8564-699BE1518860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11EC1755-AE8D-43DC-8564-699BE1518860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70148F2A-B35F-4E74-9827-7176D385FFF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70148F2A-B35F-4E74-9827-7176D385FFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70148F2A-B35F-4E74-9827-7176D385FFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70148F2A-B35F-4E74-9827-7176D385FFF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5EB6457-43A7-416B-8CC6-B99DC314C7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5EB6457-43A7-416B-8CC6-B99DC314C7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5EB6457-43A7-416B-8CC6-B99DC314C7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5EB6457-43A7-416B-8CC6-B99DC314C7EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
