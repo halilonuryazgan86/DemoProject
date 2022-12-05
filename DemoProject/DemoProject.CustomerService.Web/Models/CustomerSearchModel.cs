@@ -10,5 +10,6 @@ namespace DemoProject.CustomerService.Web.Models
     {
         public CustomerInfoType CustomerInfoType { get; set; }
         public string Detail { get; set; }
+
     }
 }

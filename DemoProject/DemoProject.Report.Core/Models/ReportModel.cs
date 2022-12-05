@@ -37,6 +37,7 @@ namespace DemoProject.Report.Core.Models
         public int KisiSayisi { get; set; }
         [BsonElement("telefon_numarasi_sayisi")]
         public int TelefonNumarasiSayisi { get; set; }
+
     }
 
     public enum ReportType

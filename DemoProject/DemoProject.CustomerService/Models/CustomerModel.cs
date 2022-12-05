@@ -52,5 +52,6 @@ namespace DemoProject.Customer.Models
     {
         public Guid UUID { get; set; }
         public CustomerInfoModel CustomerInfo { get; set; }
+
     }
 }

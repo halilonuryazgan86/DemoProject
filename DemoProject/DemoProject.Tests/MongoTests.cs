@@ -40,6 +40,7 @@ namespace DemoProject.Tests
         private DemoProject.Core.MongoDB.MongoDBConnectionSetting _mongoDBConnectionSetting = new DemoProject.Core.MongoDB.MongoDBConnectionSetting
         {
 
+
         };
 
         public TestRepository() : base(new DemoProject.Core.MongoDB.MongoDBConnectionSetting

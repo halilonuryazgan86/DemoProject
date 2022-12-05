@@ -24,6 +24,7 @@ namespace DemoProject.ReportWorker
                     ApiUrlModel apiUrlModel = Configuration.GetSection("ApiUrl").Get<ApiUrlModel>();
                     services.AddSingleton(apiUrlModel);
                     services.AddHostedService<Worker>();
+
                 });
     }
 }

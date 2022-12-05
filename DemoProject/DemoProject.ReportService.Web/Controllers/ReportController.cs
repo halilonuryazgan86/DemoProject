@@ -25,7 +25,6 @@ namespace DemoProject.ReportService.Web.Controllers
         [HttpPost(template: "get-by-location")]
         public async Task GetByLocation([FromBody] string location)
         {
-            //TODO: create new rabbitmq pipe for this request
         }
     }
 
