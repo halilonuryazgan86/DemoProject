@@ -16,4 +16,4 @@ Demo project for Rise Technology's Assesment
 
 # Usage
 
-You can test all of customer service's functions at CustomerTests.cs file is under DemoProject.Tests solution so before that you can run contact service.
+You can test all of customer service's functions at CustomerTests.cs file is under DemoProject.Tests solution so before that you can run customer service.
